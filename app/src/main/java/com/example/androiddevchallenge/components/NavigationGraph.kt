@@ -13,8 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-@file:Suppress("BlockingMethodInNonBlockingContext")
-
 package com.example.androiddevchallenge.components
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
