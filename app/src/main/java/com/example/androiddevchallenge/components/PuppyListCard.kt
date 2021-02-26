@@ -49,16 +49,16 @@ fun PuppyListCard(id: String, name: String, description: String, breed: String, 
             .padding(10.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Column() {
+        Column {
             Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
-                Column() {
+                Column {
                     Text(name, fontWeight = FontWeight.Bold)
                     Text(
                         buildAnnotatedString {
                             withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
                                 append("Breed: ")
                             }
-                            append("$breed")
+                            append(breed)
                         }
                     )
                 }

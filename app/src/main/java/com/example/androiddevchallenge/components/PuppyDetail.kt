@@ -39,7 +39,7 @@ import com.example.androiddevchallenge.model.Puppy
 @Composable
 fun PuppyDetail(currentPuppy: Puppy) {
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxSize().padding(5.dp), verticalArrangement = Arrangement.SpaceBetween) {
-        Column() {
+        Column {
             RemoteImage(currentPuppy.imageUrl, modifier = Modifier.clip(CircleShape))
             Text(currentPuppy.name, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
             Text(currentPuppy.description)
