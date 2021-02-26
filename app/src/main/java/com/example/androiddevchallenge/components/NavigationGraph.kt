@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 The Android Open Source Project
+ * Copyright 2021 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,11 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+package com.example.androiddevchallenge.components
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
@@ -27,13 +26,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.navArgument
 import androidx.navigation.compose.navigate
 import androidx.navigation.compose.rememberNavController
-import com.example.androiddevchallenge.components.Home
-import com.example.androiddevchallenge.components.PuppyDetail
 import com.example.androiddevchallenge.model.Puppy
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
-
 
 object MainDestinations {
     const val HOME_ROUTE = "home"
@@ -56,13 +52,12 @@ fun NavGraph(startDestination: String = MainDestinations.HOME_ROUTE) {
         }
     }
 
-
     NavHost(
         navController = navController,
         startDestination = startDestination
     ) {
         composable(MainDestinations.HOME_ROUTE) {
-            Home(navController = navController,puppyData = availablePuppies)
+            Home(navController = navController, puppyData = availablePuppies)
         }
         composable(
             "${MainDestinations.PUPPY_DETAIL_ROUTE}/{${MainDestinations.PUPPY_DETAIL_ID_KEY}}",
@@ -71,12 +66,11 @@ fun NavGraph(startDestination: String = MainDestinations.HOME_ROUTE) {
             val arguments = requireNotNull(backStackEntry.arguments)
             val puppyId = arguments.getInt(MainDestinations.PUPPY_DETAIL_ID_KEY)
             PuppyDetail(
-               currentPuppy = availablePuppies.value[puppyId!!]
+                currentPuppy = availablePuppies.value[puppyId!!]
             )
         }
     }
 }
-
 
 /**
  * Models the navigation actions in the app.
@@ -89,4 +83,3 @@ class MainActions(navController: NavHostController) {
         navController.navigateUp()
     }
 }
-
