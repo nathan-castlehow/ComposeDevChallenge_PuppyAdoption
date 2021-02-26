@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Jack",
+    "breed": "Jack Russell",
+    "description": "The Jack Russell terrier is a true working terrier. The breed takes its name from the Reverend John Russell, who bred one of the finest strains of terriers for working fox in England. The Jack Russell is a baying terrier, meaning the dog should flush out the fox with his steady barking but is never to kill his prey.",
+    "imageUrl": "https://www.happyjackrussell.com/wp-content/uploads/2018/08/bigstock-141211388.jpg",
+    "favourite": true,
+    "age": 6
+  },
+  {
+    "id": 2,
+    "name": "Dolly",
+    "breed": "Pug",
+    "description": "The Pug is often described as a lot of dog in a small space. These sturdy, compact dogs are a part of the American Kennel Club's Toy group, and are known as the clowns of the canine world because they have a great sense of humor and like to show off. ... Originally bred to be lap dogs, Pugs thrive on human companionship.",
+    "imageUrl": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/22130127/Pug-puppy-standing-in-profile-on-a-white-background.jpg",
+    "favourite": true,
+    "age": 4
+  },
+  {
+    "id": 3,
+    "name": "Simon",
+    "breed": "Labrador",
+    "description": "Labs are very active, strongly built dogs with good bone and substance. Their heads are broad with soft, intelligent eyes. They have a double coat: the undercoat being weather-resistant and the outer coat being short and dense with no feathering",
+    "imageUrl": "https://i.pinimg.com/originals/a3/52/cd/a352cd9f8b811f2793ce862e22bf8876.jpg",
+    "favourite": false,
+    "age": 8
+  },
+  {
+    "id": 4,
+    "name": "Miller",
+    "breed": "German Shepherd",
+    "description": "A strongly built, relatively long-bodied dog, the German shepherd stands 22 to 26 inches (56 to 66 cm) and weighs 75 to 95 pounds (34 to 43 kg). Its coat is of coarse, medium-long outer hair and shorter, dense inner hair and ranges from white or pale gray to black and is often gray and black or black and tan.",
+    "imageUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MDcyMTY0NTk1NTQxNDQ5/german-shepherd-puppy-guide.jpg",
+    "favourite": false,
+    "age": 6
+  },
+  {
+    "id": 5,
+    "name": "Bruce",
+    "breed": "Bulldog",
+    "description": "The Bulldog, also known as the English Bulldog or British Bulldog, is a medium-sized dog breed. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose. The Kennel Club, the American Kennel Club, and the United Kennel Club oversee breeding records.",
+    "imageUrl": "https://www.purina.com.au/-/media/project/purina/main/breeds/puppies/puppy-bulldog.jpg",
+    "favourite": false,
+    "age": 9
+  },
+  {
+    "id": 6,
+    "name": "Sam",
+    "breed": "Beagle",
+    "description": "Beagles are muscular, solid dogs with a slightly domed skull. Their muzzle is squarish and the nose broad. Ears are long and droopy. Their chest is deep, back is straight and they have a moderately long tail that is carried high.",
+    "imageUrl": "https://i.ytimg.com/vi/bx7BjjqHf2U/maxresdefault.jpg",
+    "favourite": false,
+    "age": 6
+  },
+  {
+    "id": 7,
+    "name": "Peter",
+    "breed": "Yorkshire Terrier",
+    "description": "The Yorkshire Terrier is a compact, toy-size terrier of no more than seven pounds whose crowning glory is a floor-length, silky coat of steel blue and a rich golden tan. Don't let the Yorkie's daintiness fool you. Tenacious, feisty, brave, and sometimes bossy, the Yorkie exhibits all the traits of a true terrier.",
+    "imageUrl": "https://www.loveyourdog.com/wp-content/uploads/2019/10/Best-Food-For-Yorkies-900x500.jpg",
+    "favourite": false,
+    "age": 7
+  },
+  {
+    "id": 8,
+    "name": "Henry",
+    "breed": "Golden Retriever",
+    "description": "The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with its friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark.",
+    "imageUrl": "https://thehappypuppysite.com/wp-content/uploads/2017/10/goldie.jpg",
+    "favourite": false,
+    "age": 5
+  },
+  {
+    "plantId": 9,
+    "name": "Gizmo",
+    "breed": "Rottweiler",
+    "description": "The ideal Rottweiler is a medium large, robust and powerful dog, black with clearly defined rust markings. His compact and substantial build denotes great strength, agility and endurance.",
+    "imageUrl": "https://dogtime.com/assets/uploads/2016/09/rottweiler-puppy-1-e1553630142158-1280x720.jpg",
+    "favourite": false,
+    "age": 5
+  },
+  {
+    "id": 10,
+    "name": "Zora",
+    "breed": "Boxer",
+    "description": "The Boxer is a medium to large, short-haired breed of dog, developed in Germany. The coat is smooth and tight-fitting; colors are fawn, brindled, or white, with or without white markings.",
+    "imageUrl": "https://4.bp.blogspot.com/-fkEaif3h8uk/VlpQ9JP5oFI/AAAAAAAAB-s/2xin5q_JtQo/s1600/Boxer-Puppy.jpg",
+    "favourite": false,
+    "age": 7
+  }
+]
